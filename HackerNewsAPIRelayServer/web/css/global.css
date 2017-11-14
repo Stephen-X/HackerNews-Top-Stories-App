@@ -1,0 +1,15 @@
+/* 
+    Just some rudimentary styles.
+
+    Author: Stephen Xie
+*/
+
+/* add border to table */
+table {
+    border-collapse: collapse;  /* don't show double borders */
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 0.5rem;
+}

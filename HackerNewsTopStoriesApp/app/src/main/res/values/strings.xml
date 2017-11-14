@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HackerNewsApp</string>
+    <string name="home_title">HackerNews Top 20 Stories</string>
+    <string name="story_title_default">Loading story…</string>
+    <string name="story_web_btn">Open article in browser</string>
+    <string name="story_comments_note">Note: only top level comments are displayed below.</string>
+</resources>

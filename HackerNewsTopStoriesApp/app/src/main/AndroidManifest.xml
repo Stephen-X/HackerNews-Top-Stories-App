@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hackernews.api.client.hackernewsapp">
+
+    <!-- Allows internet access -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="hackernews.api.client.hackernewsapp.TopStoriesActivity"
+            android:label="@string/home_title">
+            <intent-filter>
+                <!-- below specifies that this is the main activity of the app -->
+                <action android:name="android.intent.action.MAIN" />
+                <!-- below specifies that this activity can be used to launch the app -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="hackernews.api.client.hackernewsapp.StoryActivity"
+            android:label="@string/story_title_default"
+            android:parentActivityName="hackernews.api.client.hackernewsapp.TopStoriesActivity">
+            <!-- Declares that StoryActivity's parent is MainActivity; this will be useful when
+              setting up the Up button in StoryActivity's app bar. -->
+            <!-- The meta-data element below is optional unless support for API level 16 or below
+                 is required. -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="hackernews.api.client.hackernewsapp.TopStoriesActivity" />
+        </activity>
+    </application>
+
+</manifest>
