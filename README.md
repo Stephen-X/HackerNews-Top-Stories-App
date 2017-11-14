@@ -15,15 +15,11 @@ Here're some screenshots of the two activities I implemented for the app:
 
 * `TopStoriesActivity` (Main page of the app):
 
-<img src="img/main_1.png" width="300" alt="main_activity_1">
-
-<img src="img/main_2.png" width="300" alt="main_activity_2">
+<img src="img/main_1.png" width="300" alt="main_activity_1"> <img src="img/main_2.png" width="300" alt="main_activity_2">
 
 * `StoryActivity` (Page for individual stories users clicked on):
 
-<img src="img/story_1.png" width="300" alt="story_activity_1">
-
-<img src="img/story_2.png" width="300" alt="story_activity_2">
+<img src="img/story_1.png" width="300" alt="story_activity_1"> <img src="img/story_2.png" width="300" alt="story_activity_2">
 
 And here's a screenshot of the logging dashboard (accessed via http://server-base-address/dashboard):
 
